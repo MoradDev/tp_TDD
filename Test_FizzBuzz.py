@@ -1,4 +1,5 @@
-import unittest, FizzBuzz
+import unittest
+from FizzBuzz import *
 
 class TestFizzBuzz (unittest.TestCase) :
 
