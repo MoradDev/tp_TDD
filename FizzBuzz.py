@@ -4,12 +4,16 @@ class FizzBuzz :
 
     def affiche (self, nombre) :
         reponse=""
-        for i in range(nombre):
-            if i%15==0 :
+        for i in range(nombre + 1):
+            if i==0 :
+                pass
+            elif i%15==0 :
                 reponse += "FrisBee"
-            if i%5==0 :
+            elif i%5==0 :
                 reponse += "Buzz"
-            if i%3==0 :
+            elif i%3==0 :
                 reponse += "Fizz"
-            reponse += str(i)
+            else :
+                reponse += str(i)
+        print(reponse)
         return reponse
