@@ -11,5 +11,5 @@ class FizzBuzz :
                 reponse += "Buzz"
             if i%3==0 :
                 reponse += "Fizz"
-            reponse += i
+            reponse += str(i)
         return reponse
